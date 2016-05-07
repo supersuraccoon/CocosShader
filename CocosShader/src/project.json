@@ -1,0 +1,48 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 2,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions"],
+
+    "jsList" : [
+        "src/resource.js",
+
+        "src/shader/ShaderFileUtil.js",
+        "src/shader/shape/ShaderNode.js",
+        "src/shader/effect/ShaderEffectProgram.js",
+        "src/shader/effect/BloomShader.js",
+        "src/shader/effect/BlurShader.js",
+        "src/shader/effect/CelShadingShader.js",
+        "src/shader/effect/EmbossShader.js",
+        "src/shader/effect/ExplosionShader.js",
+        "src/shader/effect/FogShader.js",
+        "src/shader/effect/FrostedShader.js",
+        "src/shader/effect/GrayScaleShader.js",
+        "src/shader/effect/ImplosionShader.js",
+        "src/shader/effect/OutlineShader.js",
+        "src/shader/effect/PixelationShader.js",
+        "src/shader/effect/SepiaShader.js",
+        "src/shader/effect/SharpenShader.js",
+        "src/shader/effect/ShadowShader.js",
+        "src/shader/effect/TestShader.js",
+
+        "src/blend/BlendModeUtil.js",
+        "src/blend/BlendModeEffectUtil.js",
+        "src/blend/ColorMaskLayer.js",
+
+        "src/grid/GridUtil.js",
+        
+        "src/UI/BlendingModeAllScene.js",
+        "src/UI/BlendingModeEffectScene.js",
+        "src/UI/GridEffectScene.js",
+        "src/UI/ShaderEffectScene.js",
+        "src/UI/MainMenuScene.js"
+    ]
+}
